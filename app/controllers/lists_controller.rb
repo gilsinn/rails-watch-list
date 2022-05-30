@@ -28,9 +28,3 @@ class ListsController < ApplicationController
     params.require(:list).permit(:name)
   end
 end
-
-
-
-# params.permit(:name, { emails: [] },
-#   friends: [ :name,
-#              { family: [ :name ], hobbies: [] }])
